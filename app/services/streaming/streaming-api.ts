@@ -28,6 +28,8 @@ export interface IStreamingServiceApi {
 
   streamingStatusChange: Observable<EStreamingState>;
 
+	recordingStatusChange: Observable<ERecordingState>;
+
   /**
    * Dummy subscription for stream deck
    * @deprecated
